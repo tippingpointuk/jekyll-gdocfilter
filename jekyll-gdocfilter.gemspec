@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
                         and returns HTML with basic styling to put on your pages"
   spec.homepage      = "https://github.com/tippingpointuk/jekyll-gdocfilter"
   spec.license       = "MIT"
-  spec.required_ruby_version = ">= 2.4.0"
+  spec.required_ruby_version = ">= 2.5.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
@@ -31,11 +31,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
+  spec.add_dependency "css_parser", "1.11.0"
   spec.add_dependency "jekyll", ">= 3.7", "< 5.0"
   spec.add_dependency "nokogiri", ">=1.11.0", "<=1.13.3"
-  spec.add_dependency "css_parser", "1.11.0"
   spec.add_dependency "open-uri", "0.2.0"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
+  spec.metadata["rubygems_mfa_required"] = "true"
 end
