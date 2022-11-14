@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+### [0.1.2](https://www.github.com/tippingpointuk/jekyll-gdocfilter/compare/v0.1.1...v0.1.2) (2022-11-14)
+
+
+### Bug Fixes
+
+* minor bug fixes ([cf900ee](https://www.github.com/tippingpointuk/jekyll-gdocfilter/commit/cf900ee2e63994789ec0e6f8567d31a953bfc3f4))
+
 ### [0.1.1](https://www.github.com/tippingpointuk/jekyll-gdocfilter/compare/v0.1.0...v0.1.1) (2022-04-01)
 
 
